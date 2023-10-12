@@ -17,7 +17,30 @@
     height: 640px;
     width: 425px;
     border-radius: 30px;
-    background-color: #99dada4d;
+    background-color: #99dada3a;
     box-shadow: 20px 20px 60px #79afaf8c,
     -20px -20px 60px #e2eeeef1;
+}
+
+.result{
+    font-size: 2rem;
+    width: 405px;
+    height: 90px;
+    scrollbar-width: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: white;
+    /* box-shadow: 10px 10px 30px #79afaf2f,
+    -10px -10px 30px #e2eeeef1;  */
+}
+
+.resbox{
+    width: 390px;
+    height: min-content;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
 }
