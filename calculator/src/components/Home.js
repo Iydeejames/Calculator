@@ -13,11 +13,11 @@ function Home() {
         <div className={classes.result}>
           <div className={classes.resbox}></div>
         </div>
-      </div>
       <div className={classes.btns}>
       {buttons.map((ele,index) => {return <Button value={ele}
       key={index}/>})}
       </div>
+    </div>
     </div>
   )
 }

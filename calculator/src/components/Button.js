@@ -1,9 +1,11 @@
 import React from 'react'
 import classes from "./Button.module.css"
 
-function Button() {
+function Button({value}) {
   return (
-    <div>Button</div>
+    <div className= {classes.calcBtns}>
+        {value}
+    </div>
   )
 }
 
