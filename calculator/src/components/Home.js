@@ -9,6 +9,12 @@ function Home(){
   const buttons = ["C", "9", "8", "/", "7", "6", "5", "-", "4", "3",
    "2", "+", "1","0", ".", "Del", "="]
 
+
+   const findValue = () =>{
+    let result = Function("return "+res);
+    setRes(result.toString());
+   }
+
    const handler = (arg) => {
 
     if(arg === "C") setRes ("");
@@ -30,7 +36,8 @@ function Home(){
           </div>
         </div>
       <div className={classes.btns}>
-      {buttons.map((ele,index) => {return <Button value={ele}
+      {buttons.map((ele,index) => {return <Button handler={handler}
+       value={ele}
       key={index}/>})}
       </div>
     </div>
