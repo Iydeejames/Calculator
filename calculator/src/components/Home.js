@@ -11,11 +11,15 @@ function Home(){
 
 
    const findValue = () =>{
-    let result = Function("return "+res);
+    let result = Function("return "+res)();
     setRes(result.toString());
    }
 
    const handler = (arg) => {
+
+    if (res === "Infinity"){setRes("");
+  return;
+}
 
     if(arg === "C") setRes ("");
     else if( arg === "=") findValue();
