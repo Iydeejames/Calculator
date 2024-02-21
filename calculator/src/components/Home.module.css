@@ -12,7 +12,14 @@
     align-items: center;
 }
 
-
+.inner{
+    height: 640px;
+    width: 425px;
+    border-radius: 30px;
+    background-color: #99dada3a;
+    box-shadow: 20px 20px 60px #79afaf8c,
+    -20px -20px 60px #e2eeeef1;
+}
 
 .result{
     font-size: 2rem;
